@@ -24,3 +24,19 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+  background: radial-gradient(circle at top, #1a1a2e, #000);
+}
+
+/* Neon Glow Effect */
+.neon-glow {
+  box-shadow: 0 0 12px rgba(0, 140, 255, 0.7), 0 0 30px rgba(0, 140, 255, 0.5);
+  transition: 0.3s ease-in-out;
+}
+
+/* On Hover: Increase Glow */
+.neon-glow:hover {
+  box-shadow: 0 0 18px rgba(0, 140, 255, 1), 0 0 40px rgba(0, 140, 255, 0.8);
+}
+
