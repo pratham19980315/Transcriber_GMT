@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@wavesurfer/react": "^1.0.11",
     "busboy": "^1.6.0",
     "groq-sdk": "^0.34.0",
     "next": "16.0.1",
@@ -25,5 +26,10 @@
     "eslint-config-next": "16.0.1",
     "tailwindcss": "^4",
     "typescript": "^5"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
+  "main": "next.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
